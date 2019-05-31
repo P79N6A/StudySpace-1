@@ -1,0 +1,17 @@
+2019/03/29
+一.Linux防火墙设置
+    1.查看防火墙状态
+    firewall-cmd --state
+    2.关闭防火墙
+    systemctl stop firewalld.service
+    3.关闭防火墙开机启动
+    systemctl disable firewalld.service
+    4.由于CentOS以及RHEL安装了SELinux来增强安全性能也需要关闭
+    vi /etc/selinux/config
+    将SELINUX=enforcing改为SELINUX=disabled
+    setenforce 0
+2019//
+    后台运行
+nohup 可执行文件 1>/dev/null 2>&1 &
+2019/04/17
+netstat -tunlp

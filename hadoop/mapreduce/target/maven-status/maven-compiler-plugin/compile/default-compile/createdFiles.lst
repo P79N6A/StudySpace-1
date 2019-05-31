@@ -1,0 +1,5 @@
+WordCount\JobSubmitterWindowsLocal.class
+WordCount\WordCountMapper.class
+WordCount\JobSubmitterLinuxTOYarn.class
+WordCount\JobSubmitterWindowsTOYarn.class
+WordCount\WordCountReduce.class

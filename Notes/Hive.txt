@@ -1,0 +1,6 @@
+显示当前在操作的库
+set hive.cli.print.current.db=true
+显示表的字段名
+set hive.cli.print.header=true
+可以在当前用户home目录下创建一个文件.hiverc在里面设置上述参数每次登陆都可以生效
+

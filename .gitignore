@@ -1,0 +1,4 @@
+# Compilered document
+.idea
+*.h5
+hadoop/spark/target/spark-1.0-SNAPSHOT.jar
