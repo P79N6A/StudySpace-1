@@ -2,6 +2,7 @@
 .idea
 *.h5
 hadoop/spark/target/spark-1.0-SNAPSHOT.jar
+Artificial_Intelligence/Tensorflow_Study/tensorflow-master/*
 # Compiled class file
 *.class
 
