@@ -61,10 +61,11 @@ def X_fitting(month, x_train, xi):
 
 if __name__ == '__main__':
     ssq = FileLoad()
-    y_pred, rmse = X_fitting(1, ssq, 0)
-    while(rmse > 0.1):
-        y_pred, rmse = X_fitting(1, ssq, 0)
-        print(y_pred)
+    print(ssq)
+    # y_pred, rmse = X_fitting(1, ssq, 0)
+    # while(rmse > 0.1):
+    #    y_pred, rmse = X_fitting(1, ssq, 0)
+    #    print(y_pred)
 
 
 
