@@ -26,3 +26,5 @@ Artificial_Intelligence/Tensorflow_Study/tensorflow-master/*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+# mac fileSystem Files
+*.DS_Store
